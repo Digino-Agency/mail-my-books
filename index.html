@@ -22,6 +22,24 @@
     <title>Mail My Books | CIS Bookkeeping</title>
   </head>
   <body class="bg-brand-background text-brand-text">
+    <form
+      name="contact"
+      method="POST"
+      action="/"
+      netlify
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+      hidden
+    >
+      <input type="hidden" name="form-name" value="contact" />
+      <input name="bot-field" />
+      <input name="full-name" />
+      <input name="mobile" />
+      <input name="email" />
+      <input name="is-cis" />
+      <input name="income-band" />
+      <textarea name="message"></textarea>
+    </form>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

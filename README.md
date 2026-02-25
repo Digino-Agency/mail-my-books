@@ -172,6 +172,7 @@ hello@mailmybooks.co.uk
 ```
 
 Update in `src/config/site.js` if needed.
+Note: email is configured for contact operations but currently hidden as a front-end CTA by design.
 
 ### Service scope
 

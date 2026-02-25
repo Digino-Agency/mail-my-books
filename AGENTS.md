@@ -88,12 +88,13 @@ Keep wording careful and non-committal. Include:
   - `We do not provide tax advice. We provide bookkeeping and submission support based on information you give us.`
 
 ### FAQ
-Maintain 6 short FAQs:
+Maintain short FAQs, including:
 - What do you need from me?
 - How do I send my docs?
 - How long does it take?
 - Do you deal with VAT, payroll, or limited companies? (No)
 - Can you help if I've lost receipts? (Yes)
+- Mileage vs vehicle expenses (careful wording)
 - Will I get a rebate? (Depends on circumstances)
 
 ### Contact
@@ -150,3 +151,14 @@ Form must include:
 - Keep Netlify Forms static-compatible.
 - Avoid replacing brand palette unless asked.
 - Validate with `npm run build` after UI/content edits.
+
+## Commit Message Convention
+- Use Conventional Commits format:
+  - `<type>(<scope>): <summary>`
+- Preferred types for this repo:
+  - `feat`, `fix`, `docs`, `refactor`, `style`, `chore`
+- Keep summary imperative and concise (roughly 50-72 chars).
+- Good examples:
+  - `feat(site): launch single-page Mail My Books marketing site`
+  - `fix(contact): handle Netlify form errors and loading state`
+  - `docs(repo): sync README and AGENTS with current scope`

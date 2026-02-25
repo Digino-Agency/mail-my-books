@@ -21,5 +21,6 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Optional local workspace artifact (logo source copy is kept in public/)
-mail-my-books-logo.png
+# Optional local workspace artifact (logo source copy at repo root)
+/mail-my-books-logo.png
+!/public/mail-my-books-logo.png
